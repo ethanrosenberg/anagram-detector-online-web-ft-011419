@@ -11,6 +11,8 @@ class Anagram
       if x.split("").sort == @word return true
     end
     
+    return []
+    
   end
   
   
