@@ -11,7 +11,7 @@ class Anagram
     array.each do |x|
       grams << [x] if x.split("").sort == @word.split("").sort 
     end
-    return []
+    return grams
     
   end
   
